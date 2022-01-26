@@ -1,0 +1,30 @@
+.containerul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.nav-container {
+  padding-top: 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.containerul {
+  list-style-type: none;
+}
+ul a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  color: orangered;
+  opacity: 70%;
+  size: 200%;
+}
+img {
+  width: 200px;
+}
+.imglogo {
+  margin: 0 40%;
+}

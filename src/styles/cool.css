@@ -1,0 +1,55 @@
+.cool {
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+  font-family: glory;
+}
+.cool h2 {
+  font-size: 25px;
+}
+.artical-box {
+  background-color: white;
+  padding: 5%;
+}
+.artical-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.inter-cool {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.classist {
+  background-color: #d1483b;
+}
+
+.childlabor {
+  background-color: #3bd142;
+}
+
+.ableist {
+  background-color: #009cff;
+}
+
+.rasist {
+  background-color: #a66bbe;
+}
+
+.lie {
+  background-color: #f99500;
+}
+
+.techist {
+  background-color: #009cff;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .inter-cool {
+    grid-template-columns: 1fr;
+  }
+}

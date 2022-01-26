@@ -1,0 +1,40 @@
+h2 {
+  font-size: 50px;
+  display: block;
+}
+
+.featured_article {
+  display: flex;
+  flex-direction: column;
+  color: #f3f3f3;
+ /* background-image: url(../images/31k059knbf821.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 10px;
+  font-size: 22px;
+}
+
+.featured {
+  max-width: 40%;
+  padding: 30px;
+}
+
+.tech_pill {
+  background-color: var(--lies-color);
+}
+
+.Learn_more {
+  display: inline-block;
+  margin-top: 1.5vh;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: #c72727;
+}
+
+.Learn_more:hover {
+  opacity: 80%;
+}

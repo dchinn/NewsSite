@@ -1,0 +1,37 @@
+html {
+  --default-font: glory, sans-serif;
+  --primary-color: #c72727;
+  --light-color: #f3f3f3;
+  --dark-color: #333;
+  --link-color: #333;
+  --childlabor-color: #f99500;
+  --classist-color: #a66bbe;
+  --lies-color: #009cff;
+  --ableist-color: #3bd142;
+  --rasist-color: #d1483b;
+}
+
+.pill {
+  display: inline-block;
+  font-size: 12px;
+  padding: 7px 10.5px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: var(--light-color);
+  font-family: var(--default-font);
+}
+
+.container {
+  margin: 0 auto;
+  margin: 10px 50px;
+}
+
+p {
+  font-size: 22px;
+}
